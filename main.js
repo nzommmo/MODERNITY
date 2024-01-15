@@ -24,3 +24,11 @@ function fade(){
   
 }
 art.addEventListener("click",fade)
+
+let Apikey = "#"
+let ApiURL = "#"
+function checkweather() {
+    
+    
+}
+
