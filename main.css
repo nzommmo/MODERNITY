@@ -79,3 +79,11 @@ ul {
     font: bold;
     color: white;
 }
+footer{
+    position: absolute;
+    color: red;
+    margin: 0 35%;
+    width: 100%;
+
+
+}
