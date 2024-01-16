@@ -11,9 +11,9 @@ function display(){
     }
 }
 display()
+let artgallery = document.getElementById("artgallery")
 
 function fade(){
-    let artgallery = document.getElementById("artgallery")
     let info = document.getElementById("trial")
     artgallery.style.opacity = 0.2
     info.style.display = "block"
@@ -31,4 +31,14 @@ function checkweather() {
     
     
 }
-
+function search() {
+    let input = document.getElementById("searchbar")
+    if (input.value === sunny){
+        artgallery.style.display = "none"
+        
+    }else{
+        artgallery.style.display = "none"
+    }
+}
+search()
+BigInt.addEventListener("click",search)

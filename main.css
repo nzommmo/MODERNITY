@@ -3,8 +3,9 @@ body{
     background-image: linear-gradient(to right,#aee0db,#efe4dd);
 }
 body.html{
-    overflow-y: hidden;
+    overflow: hidden;
     overflow-x: hidden;
+    overflow-wrap: normal;
 }
 header{
     float: right;
@@ -82,7 +83,7 @@ ul {
 footer{
     position: absolute;
     color: red;
-    margin: 0 35%;
+    margin: 0 40%;
     width: 100%;
 
 
