@@ -31,6 +31,7 @@ function checkweather() {
     
     
 }
+/*
 function search() {
     let input = document.getElementById("searchbar")
     if (input.value === sunny){
@@ -42,3 +43,4 @@ function search() {
 }
 search()
 Btn.addEventListener("click",search)
+*/
