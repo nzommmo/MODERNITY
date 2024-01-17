@@ -41,4 +41,4 @@ function search() {
     }
 }
 search()
-BigInt.addEventListener("click",search)
+Btn.addEventListener("click",search)
