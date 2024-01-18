@@ -18,13 +18,11 @@ function fade(){
     artgallery.style.opacity = 0.2
     info.style.display = "block"
   
-    
-    
-   
   
 }
 art.addEventListener("click",fade)
 
+<<<<<<< HEAD
 const APIKEY = "580913e8cf3309c75560389315fd1e29";
 const APIURL= "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 const searchbox = document.getElementById("town")
@@ -51,13 +49,28 @@ async function checkWeather(city){
     if (data.weather[0].main == "Clouds"){
         cloudss[i].style.display = "block"
 
+=======
+
+ 
+/*
+function search() {
+    let input = document.getElementById("searchbar")
+    if (input.value === sunny){
+        artgallery.style.display = "none"
+>>>>>>> 8dc8d0cbffe28634f19532bde1390ee37644b003
         
     }else{
         rains[j].style.display = "none"
 
     }
 }
+<<<<<<< HEAD
 searchbtn.addEventListener("click",(e)=>{
     e.preventDefault()
     checkWeather(searchbox.value)
 })
+=======
+search()
+Btn.addEventListener("click",search)
+*/
+>>>>>>> 8dc8d0cbffe28634f19532bde1390ee37644b003
