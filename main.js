@@ -47,15 +47,10 @@ async function checkWeather(city){
     var  rains = document.getElementsByClassName("rainy")
     for(var j = 0; j < rains.length; j++)
 
-
-    if (data.weather[0].main == "Clouds"){
-        cloudss[i].style.display = "block"
-
-
-    }else{
-        rains[j].style.display = "none"
-
+    if (data.weather[0].main == "Sunny"){
+        cloudss[i].style.display = "none"
     }
+
 }
 searchbtn.addEventListener("click",(e)=>{
     e.preventDefault()

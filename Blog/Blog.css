@@ -1,0 +1,54 @@
+
+nav{
+    float: right;
+    margin: -1% 2%; 
+}
+header{
+    margin: -2% -0.9%;
+    width: 100vw;
+    background-image: linear-gradient(to right,lightgreen,lightblue);
+    
+}
+ul {
+    list-style-type: none;
+   
+  }
+
+  li {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+  }
+
+  .dropdown1{
+    display: none;
+    position: absolute;
+    min-width: 16px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+
+  .dropdown1 a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  li:hover .dropdown1 {
+    display: block;
+  }
+body{
+    counter-reset: Activity;
+}
+
+h2::before{
+    counter-increment: Activity;
+    content: "Activity" counter(Activity) ": ";
+}
+#artgalcont{
+    width: 500px;
+    border-radius: 10px ;
+    border: red;
+    border-style:groove;
+    
+}
