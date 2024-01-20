@@ -1,4 +1,4 @@
-var text = "DATE PLANNER";
+var text = "EVENT PLANNER";
 var index = 0;
 var titleanimation = document.getElementById("title")
 

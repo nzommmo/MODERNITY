@@ -6,6 +6,7 @@ nav{
 header{
     margin: -2% -0.9%;
     width: 100vw;
+    height: 80px;
     background-image: linear-gradient(to right,lightgreen,lightblue);
     
 }
@@ -41,14 +42,32 @@ body{
     counter-reset: Activity;
 }
 
+h2{
+  margin-top: 30px;
+}
 h2::before{
     counter-increment: Activity;
     content: "Activity" counter(Activity) ": ";
 }
-#artgalcont{
-    width: 500px;
+#artgalcont {
+    position: absolute;
+    margin-top: 5%;
+    width: 320px;
     border-radius: 10px ;
     border: red;
     border-style:groove;
     
 }
+#images{
+  margin-left:10% ;
+  margin-top: 5%;
+}
+#images img{
+  border-radius: 10px;
+}
+section{
+  display: flex;
+  flex-wrap:wrap;
+  
+}
+
