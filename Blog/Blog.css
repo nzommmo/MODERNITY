@@ -69,3 +69,28 @@ h2::before{
   border-radius: 10px;
 }
 
+footer{
+  width: 100vw;
+  display: flex;
+  margin-top: 40px;
+  column-gap: 200px;
+  color: whitesmoke;
+  background-color: black;
+  
+ }
+#input{
+  height: 200px;
+  width: 400px;
+}
+#btn{
+  margin-left:110px;
+  border-radius: 5px;
+  background-color: aquamarine;
+  color: black;
+  margin-top: 10px;
+  width: 150px;
+}
+#contacts{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
