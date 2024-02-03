@@ -11,12 +11,20 @@ function display(){
     }
 }
 display()
+let fadebutton = document.getElementById("art")
+let fadebutton1 =document.getElementById("art1")
 let artgallery = document.getElementById("artgallery")
+let backbutton= document.getElementById("back")
+let info = document.getElementById("trial")
+let info1 = document.getElementById("trial")
 
 function fade(){
-    let info = document.getElementById("trial")
     artgallery.style.opacity = 0.2
     info.style.display = "block"
+    fadebutton.style.display = "none"
+    backbutton.style.display="block"
+
+//how to get elements by class name to avoid re-writing code
   
     
     
@@ -24,6 +32,18 @@ function fade(){
   
 }
 art.addEventListener("click",fade)
+art1.addEventListener("click",fade)
+
+function reapper(){
+    fadebutton.style.display = "block"
+    info.style.display = "none"
+    artgallery.style.opacity=1
+    backbutton.style.display="none"
+
+
+}
+back.addEventListener("click",reapper)
+
 
 const APIKEY = "580913e8cf3309c75560389315fd1e29";
 const APIURL= "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";

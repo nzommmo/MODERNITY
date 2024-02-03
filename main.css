@@ -65,8 +65,7 @@ ul {
 }
 
 #catalogue button {
-    position:absolute;
-    margin:20% -13%;
+    position: relative;
     background-color: transparent;
     color: white;
     font:bold;
@@ -80,6 +79,15 @@ ul {
     font: bold;
     color: white;
 }
+#trial1{
+    display: none;
+    position: absolute;
+    width: 200px;
+    margin: 5% 1%;
+    font: bold;
+    color: white;
+}
+
 footer{
     position: absolute;
     color: red;
@@ -88,3 +96,33 @@ footer{
 
 
 }
+#catalogue #back {
+    position: absolute;
+    bottom: 20%;
+    left: 18%;
+    color: black;
+    display: none;
+}
+#catalogue #art {
+    position: absolute;
+    bottom: 20%;
+    left: 16%;
+    color: black;
+    
+}
+#catalogue #back1 {
+    position: absolute;
+    bottom: 20%;
+    left:60%;
+    color: black;
+    display: none;
+}
+#catalogue #art1 {
+    position: absolute;
+    bottom: 20%;
+    left: 60%;
+    color: black;
+    
+}
+
+
