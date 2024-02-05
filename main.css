@@ -83,10 +83,73 @@ ul {
     display: none;
     position: absolute;
     width: 200px;
-    margin: 5% 45%;
+    margin: 5% 33%;
     font: bold;
     color: white;
 }
+#trial2{
+    display: none;
+    position: absolute;
+    width: 200px;
+    margin: 5% 58%;
+    font: bold;
+    color: white;
+}
+
+#trial3{
+    display: none;
+    position: absolute;
+    width: 200px;
+    margin: 5% 58%;
+    font: bold;
+    color: white;
+}
+
+#trial4{
+    display: none;
+    position: absolute;
+    width: 200px;
+    margin: 5% 58%;
+    font: bold;
+    color: white;
+}
+
+#trial5{
+    display: none;
+    position: absolute;
+    width: 200px;
+    margin: 5% 58%;
+    font: bold;
+    color: white;
+}
+
+#trial6{
+    display: none;
+    position: absolute;
+    width: 200px;
+    margin: 5% 58%;
+    font: bold;
+    color: white;
+}
+
+#trial7{
+    display: none;
+    position: absolute;
+    width: 200px;
+    margin: 5% 58%;
+    font: bold;
+    color: white;
+}
+
+#trial8{
+    display: none;
+    position: absolute;
+    width: 200px;
+    margin: 5% 58%;
+    font: bold;
+    color: white;
+}
+
 
 footer{
     position: absolute;
@@ -113,28 +176,28 @@ footer{
 #catalogue #back1 {
     position: absolute;
     bottom: 20%;
-    left:60%;
+    left:45%;
     color:yellow;
     display: none;
 }
 #catalogue #back2 {
     position: absolute;
     bottom: 20%;
-    left:60%;
+    left:70%;
     color:yellow;
     display: none;
 }
 #catalogue #back3 {
     position: absolute;
     bottom: -20%;
-    left:10%;
+    left:17%;
     color:yellow;
     display: none;
 }
 #catalogue #back4 {
     position: absolute;
     bottom: -20%;
-    left:60%;
+    left:20%;
     color:yellow;
     display: none;
 }
@@ -154,8 +217,15 @@ footer{
 }
 #catalogue #back7 {
     position: absolute;
-    bottom: 20%;
-    left:60%;
+    bottom: -90%;
+    left: 45%;
+    color:yellow;
+    display: none;
+}
+#catalogue #back8 {
+    position: absolute;
+    bottom: -90%;
+    left: 70%;
     color:yellow;
     display: none;
 }
@@ -176,17 +246,16 @@ footer{
 #catalogue #art3 {
     position: absolute;
     bottom: -20%;
-    left: 10%;
-    color: black;
+    left: 17%;
+    color:wheat;
     
 }
 #catalogue #art4 {
     position: absolute;
-    bottom: -20%;
-    left: 70%;
-    color: black;
-    
+        
+    color:black; 
 }
+
 #catalogue #art5 {
     position: absolute;
     bottom: -20%;
@@ -203,9 +272,17 @@ footer{
 }
 #catalogue #art7 {
     position: absolute;
-    bottom: 20%;
-    left: 60%;
+    bottom: -90%;
+    left: 45%;
     color: black;
     
 }
+#catalogue #art8 {
+    position: absolute;
+    bottom: -90%;
+    left: 70%;
+    color: black;
+    
+}
+
 
