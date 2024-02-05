@@ -11,6 +11,7 @@ function display(){
     }
 }
 display()
+/*
 let fadebutton = document.getElementById("art")
 let fadebutton1 =document.getElementById("art1")
 let artgallery = document.getElementById("artgallery")
@@ -22,14 +23,7 @@ function fade(){
     artgallery.style.opacity = 0.2
     info.style.display = "block"
     fadebutton.style.display = "none"
-    backbutton.style.display="block"
-
-//how to get elements by class name to avoid re-writing code
-  
-    
-    
-   
-  
+    backbutton.style.display="block"   
 }
 art.addEventListener("click",fade)
 art1.addEventListener("click",fade)
@@ -43,6 +37,63 @@ function reapper(){
 
 }
 back.addEventListener("click",reapper)
+*/
+
+let fadebuttons = document.querySelectorAll(".btn")
+let reapperbuttons =  document.querySelectorAll(".btn1")
+function fade(event){
+    
+    const targetedbuttonsId = event.target.getAttribute('data-button')
+    const targetbuttons = document.getElementById(targetedbuttonsId)
+    const targetedtextId = event.target.getAttribute('data-text')
+    const targetedtext = document.getElementById(targetedtextId)
+    const targetedDivId = event.target.getAttribute('data-target')
+    const targetDiv = document.getElementById(targetedDivId)
+    const backbuttonsid = event.target.getAttribute('data-set')
+    const backbutton = document.getElementById(backbuttonsid)
+
+
+    targetDiv.style.opacity = 0.2
+    targetedtext.style.display = "block"
+    targetbuttons.style.display = "none"
+    backbutton.style.display = "block"
+}
+
+fadebuttons.forEach(button => {
+    button.addEventListener("click",fade)
+})
+
+function reapper(events){
+
+
+    const targetedbuttonsId = events.target.getAttribute('data-button')
+    const targetbuttons = document.getElementById(targetedbuttonsId)
+    const targetedtextId = events.target.getAttribute('data-text')
+    const targetedtext = document.getElementById(targetedtextId)
+    const targetedDivId = events.target.getAttribute('data-target')
+    const targetDiv = document.getElementById(targetedDivId)
+    const backbuttonsid = events.target.getAttribute('data-set')
+    const backbutton = document.getElementById(backbuttonsid)
+
+    targetDiv.style.opacity = 1
+    targetedtext.style.display = "none"
+    targetbuttons.style.display = "block"
+    backbutton.style.display = "none"
+
+}
+
+reapperbuttons.forEach(button => {
+    button.addEventListener("click",reapper)
+})
+
+
+
+
+
+
+
+
+
 
 
 const APIKEY = "580913e8cf3309c75560389315fd1e29";

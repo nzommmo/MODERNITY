@@ -83,7 +83,7 @@ ul {
     display: none;
     position: absolute;
     width: 200px;
-    margin: 5% 1%;
+    margin: 5% 45%;
     font: bold;
     color: white;
 }
@@ -100,7 +100,7 @@ footer{
     position: absolute;
     bottom: 20%;
     left: 18%;
-    color: black;
+    color:yellow;
     display: none;
 }
 #catalogue #art {
@@ -114,15 +114,98 @@ footer{
     position: absolute;
     bottom: 20%;
     left:60%;
-    color: black;
+    color:yellow;
+    display: none;
+}
+#catalogue #back2 {
+    position: absolute;
+    bottom: 20%;
+    left:60%;
+    color:yellow;
+    display: none;
+}
+#catalogue #back3 {
+    position: absolute;
+    bottom: -20%;
+    left:10%;
+    color:yellow;
+    display: none;
+}
+#catalogue #back4 {
+    position: absolute;
+    bottom: -20%;
+    left:60%;
+    color:yellow;
+    display: none;
+}
+#catalogue #back5 {
+    position: absolute;
+    bottom: -20%;
+    left:70%;
+    color:yellow;
+    display: none;
+}
+#catalogue #back6 {
+    position: absolute;
+    bottom: -90%;
+    left: 20%;
+    color:yellow;
+    display: none;
+}
+#catalogue #back7 {
+    position: absolute;
+    bottom: 20%;
+    left:60%;
+    color:yellow;
     display: none;
 }
 #catalogue #art1 {
+    position: absolute;
+    bottom: 20%;
+    left: 45%;
+    color: black;
+    
+}
+#catalogue #art2 {
+    position: absolute;
+    bottom: 20%;
+    left: 70%;
+    color: black;
+    
+}
+#catalogue #art3 {
+    position: absolute;
+    bottom: -20%;
+    left: 10%;
+    color: black;
+    
+}
+#catalogue #art4 {
+    position: absolute;
+    bottom: -20%;
+    left: 70%;
+    color: black;
+    
+}
+#catalogue #art5 {
+    position: absolute;
+    bottom: -20%;
+    left: 70%;
+    color: black;
+    
+}
+#catalogue #art6 {
+    position: absolute;
+    bottom: -90%;
+    left: 20%;
+    color: black;
+    
+}
+#catalogue #art7 {
     position: absolute;
     bottom: 20%;
     left: 60%;
     color: black;
     
 }
-
 
